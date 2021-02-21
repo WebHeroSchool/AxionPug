@@ -1,0 +1,15 @@
+.body {
+    /* width: 1170px; */
+    height: 2376px;
+    margin: 0;
+    padding: 0;
+    border: solid red;
+}
+.wrapper {
+    width: 88%;
+    margin: auto;
+
+}
+li {
+    list-style-type: none;
+}
