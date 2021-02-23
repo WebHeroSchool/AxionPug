@@ -1,11 +1,3 @@
-li {
-    list-style-type: none;
-}
-a {
-    color: #000;
-    text-decoration: none;
-}
-
 .body {
     width: 1170px;
     height: 2376px;
@@ -25,6 +17,10 @@ a {
     height: 55px;
     margin-right: 45px;
     border: solid 1px red;
+}
+a {
+    color: #000;
+    text-decoration: none;
 }
 .menu {
     display: flex;
@@ -58,6 +54,7 @@ a {
     width: 14px;
     height: 14px;
     margin-right: 35px;
+    cursor: pointer;
     background-image: url(./img/Search.svg);
 }
 .menu__item_cart {
@@ -76,6 +73,7 @@ a {
     border: none;
     background-color: transparent;
     margin-right: 0;
+    cursor: pointer;
 }
 .potter__rob_rob-img {
     background-image: url(./img/rob-potter.jpg);
@@ -93,7 +91,7 @@ a {
 }
 .potter__rob_shop-now-img {
     position: absolute;
-    background-image: url(./img/lm-arrow-white.svg);
+    background-image: url(./img/shn-arrow-white.svg);
     width: 122px;
     height: 12px;
     top: 193px;
@@ -292,4 +290,130 @@ a {
     border-radius: 50%;
     background-color: #FDB431;
     margin: 0 4px;
+}
+.border1,.border2,.border3 {
+    border-right: solid 1px #000;
+    height: 100px;
+    margin-top: 50px;
+    opacity: 0.2;
+}
+.video {
+    height: 494px;
+    background-color: #000;
+    position: relative;
+}
+.video__video-img {
+    background-image: url(./img/video.jpg);
+    position: absolute;
+    width: 644px;
+    height: 361px;
+    top: 67px;
+    left: 33px;
+}
+.video__video-img2 {
+    background-image: url(./img/video-2.svg);
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 224px;
+    left: 332px;
+}
+.video__video-sabtitle {
+    color: #FFF;
+    top: 155px;
+    left: 719px;
+    position: absolute;
+    font: 700 22px/27px 'GothamPro',arial,helvetica,sans-serif;
+    text-transform: uppercase;
+}
+.video__video-text {
+    color: #FFF;
+    position: absolute;
+    font: 400 14px/17px 'GothamPro',arial,helvetica,sans-serif;
+    top: 224px;
+    left: 719px;
+    right: 58px;
+}
+.video__video-arrow {
+    background-image: url(./img/lm-arrow-white.svg);
+    position: absolute;
+    width: 137px;
+    height: 12px;
+    top: 329px;
+    left: 719px;
+}
+.story__h2 {
+    text-align: center;
+    font: 700 22px/21px 'GothamPro',arial,helvetica,sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    margin: 80px 0 40px 0;
+}
+.story {
+    display: flex;
+}
+.presents,.first,.kevin {
+    width: 307px;
+    height: 338px;
+}
+.first {
+    margin: 0 55px;
+}
+.atlas-black-img,.first__first-img,.kevin__kevin-img {
+
+}
+.presents__presents-h3,.first__first-h3,.kevin__kevin-h3 {
+    font: 700 18px/17px 'GothamPro',arial,helvetica,sans-serif;
+    color: #000;
+}
+.presents__presents-text,.first__first-text,.kevin__kevin-text {
+    font: 400 14px/17px 'GothamPro',arial,helvetica,sans-serif;
+    color: #000;
+}
+.presents__presents-arrow,.first__first-arrow,.kevin__kevin-arrow {
+
+}
+.presents__presents-date,.first__first-date,.kevin__kevin-date {
+   
+    font: 700 12px/11px 'GothamPro',arial,helvetica,sans-serif;
+    color: #000;
+    opacity: .3;
+    text-transform: uppercase; 
+    margin-left: 120px;
+}
+.picture__nav {
+    
+}
+.picture__picture-h2 {
+    text-align: right;
+    font: 700 18px/17px 'GothamPro',arial,helvetica,sans-serif;
+    color: #000;
+    opacity: .3;
+    text-transform: uppercase; 
+}
+.picture__picture-img0,.picture__picture-img1,.picture__picture-img2,.picture__picture-img3,.picture__picture-img4,.picture__picture-img5 {
+    margin-right: -6px;
+}
+
+.footer {
+    height: 297px;
+    background-color: rgb(197, 157, 157);
+    display: flex;
+    color: #FFF;
+}
+.account {
+   width: 86px;
+   height: 106px;
+   font: 700 12px/12px 'GothamPro',arial,helvetica,sans-serif;
+}
+.service {
+    width: 128px;
+   height: 124px;
+}
+.account__account-text,.service__text,.miscellaneous-text {
+   color: #FFF;
+   display: flex;
+    flex-flow: column; 
+    font: 400 12px/12px 'GothamPro',arial,helvetica,sans-serif;
+    margin-top: 6px;
 }
