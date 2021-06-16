@@ -13,52 +13,59 @@
 <body class="body">
     <div class="wrapper">
         <header class="header">
-
             <nav class="menu">
-                <div class="logo"></div>
-                <a class="menu__item menu__item_shop" href="#">Shop</a>
-                <a class="menu__item menu__item_news" href="#">News</a>
-                <a class="menu__item menu__item_team" href="#">Team</a>
-                <a class="menu__item menu__item_legacy" href="#">Legacy</a>
-                <a class="menu__item menu__item_help" href="#">HELP</a>
-                <form>
-                    <input class="menu__item menu__item_line" type="text" placeholder="Поиск">
-                    <button class="menu__item menu__item_search" type="submit"></button>
-                </form>
-                <a class="menu__item menu__item_sing" href="#">SIGN IN</a>
-                <a class="menu__item menu__item_cart" href="#">CART</a>
-                <a class="menu__item menu__item_cart-logo" href=""></a>
-                <button class="menu__item menu__item_flag" type="submit" href="#"></button>
+                <div class="wrapper-menu1">
+                    <div class="logo"></div>
+                    <a class="menu__item menu__item_shop" href="#">Shop</a>
+                    <a class="menu__item menu__item_news" href="#">News</a>
+                    <a class="menu__item menu__item_team" href="#">Team</a>
+                    <a class="menu__item menu__item_legacy" href="#">Legacy</a>
+                    <a class="menu__item menu__item_help" href="#">HELP</a>
+                </div>
+                <div class="wrapper-menu2">
+                    <div class="burger-line first-line"></div>
+                    <div class="burger-line second-line"></div>
+                    <form class="form">
+                        <input class="menu__item menu__item_line" type="text" placeholder="Поиск">
+                        <button class="menu__item menu__item_search" type="submit" href="#"><img src="./img/Search.svg"
+                                alt="#"></button>
+                    </form>
+                    <a class="menu__item menu__item_sing" href="#">SIGN IN</a>
+                    <a class="menu__item menu__item_cart" href="#">CART</a>
+                    <a class="menu__item menu__item_cart-logo" href="#"><img src="./img/ellipse-nav.svg" alt="#"></a>
+                    <button class="menu__item menu__item_flag" type="submit" href="#"><img src="./img/united-states.svg"
+                            alt="#"></button>
+                </div>
             </nav>
         </header>
 
         <main class="main">
-
             <section class="potter">
                 <div class="potter__rob potter__rob_rob-img">
-                    <h1 class="potter__rob potter__rob_title">Legendary<br> footwear<br>reborn.</h1>
-                    <div class="potter__rob potter__rob_shop-now-img"></div>
-                    <div class="potter__rob potter__rob_rob-arrow"></div>
+                    <h1 class="potter__rob potter__rob_title">Legendary<br>footwear<br>reborn.</h1>
+                    <a class="potter__rob potter__rob_shop-now-img" href="#"></a>
                 </div>
             </section>
 
             <h2 class="product-sabtitle">Featured product </h2>
             <section class="product">
                 <article class="atlas-black">
-                    <div class="atlas-black-img"></div>
+                    <div class="atlas-black-img">
+                    </div>
                     <p class="atlas-black-name name">Atlas Black/Rasta Axion</p>
 
                     <nav class="atlas-black__ellipse">
                         <span class="atlas-black-prace prace">$89.00</span>
                         <a class="atlas-black__ellipse atlas-black__ellipse_gray" href="#"></a>
-                        <a class="atlas-black__ellipse atlas-black__ellipse_black-active" href="#"></a>
+                        <a class="atlas-black__ellipse atlas-black__ellipse_black-active"></a>
                         <a class="atlas-black__ellipse atlas-black__ellipse_burgundy" href="#"></a>
                         <a class="atlas-black__ellipse atlas-black__ellipse_yelloy" href="#"></a>
                     </nav>
                 </article>
                 <span class="border1"></span>
                 <article class="camel">
-                    <div class="camel__camel-img"></div>
+                    <div class="camel__camel-img">
+                    </div>
                     <p class="camel__cemel-name name">Camel/Chili Pepper Axion</p>
                     <nav class="cemel__ellipse">
                         <span class="camel__cemel-prace prace">$74.00</span>
@@ -70,7 +77,8 @@
                 </article>
                 <span class="border2"></span>
                 <article class="mandel-smoke">
-                    <div class="mandel-smoke__mandel-smoke-img"></div>
+                    <div class="mandel-smoke__mandel-smoke-img">
+                    </div>
                     <p class="mandel-smoke__mandel-smoke-name name">Mandel Smoke/Rust Axion </p>
                     <nav class="mandel-smoke__ellipse">
                         <span class="mandel-smoke__mandel-smoke-prace prace">$69.00</span>
@@ -82,7 +90,8 @@
                 </article>
                 <span class="border3"></span>
                 <article class="cloud">
-                    <div class="cloud__cloud-img"></div>
+                    <div class="cloud__cloud-img">
+                    </div>
                     <p class="cloud__cloud-name name">Cloud/Electric Blue Axion </p>
                     <nav class="cloud__ellipse">
                         <span class="cloud__cloud-prace prace">$69.00</span>
@@ -97,60 +106,69 @@
             <section class="video">
                 <div class="video__video-img"></div>
                 <a class="video__video-img2" href="#"></a>
-                <h3 class="video__video-sabtitle">Legendary<br> footwear reborn</h3>
+                <h3 class="video__video-sabtitle video__video-sabtitle__1">Legendary</h3>
+                <h3 class="video__video-sabtitle video__video-sabtitle__2">footwear reborn</h3>
                 <p class="video__video-text">We are a brand with a history and are relaunching for 2019.
                     We’ve been a part of the skater’s family ever since it’s early teenage years.
                     And now we presentate a new footwear collection.</p>
-                <div class="video__video-arrow"></div>
+                <a class="video__video-arrow" href="#"><img class="video-arrow" width="221px"
+                        src="./img/lm-arrow-white.svg" alt=""></a>
             </section>
-            <h2 class="story__h2">Recent stories</h2>
 
-            <section class="story">
-                <article class="presents">
-                    <img class="presents__presents-img" src="./img/presents.jpg">
-                    <h3 class="presents__presents-h3">Presents Justin Anagoa</h3>
-                    <p class="presents__presents-text">Anagoa’s been a part of the skater’s family ever since his early
-                        teenage
-                        years.
-                        He’s been known to go big on and off the board, but it’s been rare we get a glimpse into how
-                        Anagoa
-                        lives his day-to-day, to see what makes Anagoa tick.</p>
-                    <img class="presents__presents-arrow" src="./img/lm-arrow-black.svg">
-                    <span class="presents__presents-date">11.08.2018</span>
-                </article>
+            <section class="stories">
+                <div class="story__h2">Recent stories</div>
+                <div class="story">
+                    <article class="presents">
+                        <div class="presents__presents-img"></div>
+                        <h3 class="presents__presents-h3">Presents Justin Anagoa</h3>
+                        <p class="presents__presents-text">Anagoa’s been a part of the skater’s family ever since his
+                            early teenage years.He’s been known to go big on and off the board, but it’s been rare we
+                            get a glimpse into how
+                            Anagoa lives his day-to-day, to see what makes Anagoa tick.</p>
+                        <div class="cont_presents__presents-arrow"><a href="#" class="presents__presents-arrow"></a>
+                            <span class="presents__presents-date">11.08.2018</span>
+                        </div>
+                    </article>
 
-                <article class="first">
-                    <img class="first__first-img" src="./img/first.jpg">
-                    <h3 class="first__first-h3">First Frontside flip</h3>
-                    <p class="first__first-text">Yoon recently discusses his first time shooting a signature Andrew
-                        Reynolds
-                        frontside flip on The Berrics. Click the image below to see the full gallery and read up on what
-                        happened that day.<br />Photo:Yoon Sul</p>
-                    <img class="first__first-arrow" src="./img/lm-arrow-black.svg">
-                    <span class="first__first-date">17.08.2018</span>
-                </article>
+                    <article class="first">
+                        <div class="first__first-img"></div>
+                        <h3 class="first__first-h3">First Frontside flip</h3>
+                        <p class="first__first-text">Yoon recently discusses his first time shooting a signature Andrew
+                            Reynolds
+                            frontside flip on The Berrics. Click the image below to see the full gallery and read up on
+                            what
+                            happened that day.<br />Photo:Yoon Sul</p>
+                        <div class="cont_first__first-arrow"><a href="#" class="first__first-arrow"></a>
+                            <span class="first__first-date">17.08.2018</span>
+                        </div>
+                    </article>
 
-                <article class="kevin">
-                    <img class="kevin__kevin-img" src="./img/kevin.jpg">
-                    <h3 class="kevin__kevin-h3">Kevin Baekkel is Pro</h3>
-                    <p class="kevin__kevin-text">Creature proudly announced today that they’re officially adding Kevin
-                        Baekkel to their pro roster. After paying his dues for years, killing it on last years Thrasher
-                        King of the Road, and constantly lighting every spot he hits on fire.</p>
-                    <img class="kevin__kevin-arrow" src="./img/lm-arrow-black.svg">
-                    <span class="kevin__kevin-date">29.07.2018</span>
-                </article>
+                    <article class="kevin">
+                        <div class="kevin__kevin-img"></div>
+                        <h3 class="kevin__kevin-h3">Kevin Baekkel is Pro</h3>
+                        <p class="kevin__kevin-text">Creature proudly announced today that they’re officially adding
+                            Kevin
+                            Baekkel to their pro roster. After paying his dues for years, killing it on last years
+                            Thrasher
+                            King of the Road, and constantly lighting every spot he hits on fire.</p>
+                        <div class="cont_kevin__kevin-arrow"><a href="#" class="kevin__kevin-arrow"></a>
+                            <span class="kevin__kevin-date">29.07.2018</span>
+                        </div>
+                    </article>
+                </div>
             </section>
 
             <section class="picture">
                 <h2 class="picture__picture-h2">#AXIONfootwear</h2>
                 <nav class="picture__nav">
-                    <img class="picture__picture-img0" src="./img/picture.jpg">
-                    <img class="picture__picture-img1" src="./img/picture1.jpg">
-                    <img class="picture__picture-img2" src="./img/picture2.jpg">
-                    <img class="picture__picture-img3" src="./img/picture3.jpg">
-                    <img class="picture__picture-img4" src="./img/picture4.jpg">
-                    <img class="picture__picture-img5" src="./img/picture5.jpg">
-                    <img class="picture__picture-img6" src="./img/picture6.jpg">
+                    <div class="picture__picture-img0"></div>
+                    <div class="picture__picture-img1"></div>
+                    <div class="picture__picture-img2"></div>
+                    <div class="picture__picture-img3"></div>
+                    <div class="picture__picture-img4"></div>
+                    <div class="picture__picture-img5"></div>
+                    <div class="picture__picture-img6"></div>
+                    <div class="picture__picture-img7"></div>
                 </nav>
             </section>
         </main>
@@ -173,8 +191,8 @@
             <article class="service">
                 <nav class="service__text">
                     <h4 class="service__service-h4">CUSTOMER SERVICE</h4>
-                    <a class="service__text service__text_Contact us" href="">Contact us</a>
-                    <a class="service__text service__text_help/faq" href="">Help/FAQ</a>
+                    <a class="service__text service__text_Contact-us" href="">Contact us</a>
+                    <a class="service__text service__text_help-faq" href="">Help/FAQ</a>
                     <a class="service__text service__text_shipping" href="">Shipping</a>
                     <a class="service__text service__text_returns" href="">Returns</a>
                     <a class="service__text service__text_size-guide" href="">Size guide</a>
@@ -196,21 +214,22 @@
 
             <article class="newsletter">
                 <div class="newsletter__newsletter-sing-up">
-                    <h4 class="newsletter__newsletter-sing-up-h4">NEWSLETTER SIGN UP</h4>
-                    <p class="newsletter__newsletter-sing-up newsletter__newsletter-sing-up_text">Get 10% Off Your Next
-                        Order!</p>
+                    <h4 class="newsletter__newsletter-sing-up newsletter__newsletter-sing-up-h4">NEWSLETTER SIGN UP</h4>
+                    <div class="newsletter__newsletter-sing-up newsletter__newsletter-sing-up_text"><span
+                            class="carryover0">Get</span><span class="carryover"> 10%</span>
+                        <span class="carryover1">Off</span><span class="carryover2"> Your</span> <span
+                            class="carryover3">Next </span><span class="carryover4"> Order!</span>
+
+                    </div>
                     <button class="newsletter__newsletter-sing-up newsletter__newsletter-sing-up_btn">SIGN UP</button>
                 </div>
                 <div class="newsletter__icon">
-                    <button class="newsletter__icon newsletter__icon_facebook" href="#"><img
-                            src="./img/facebook.svg"></button>
-                    <button class="newsletter__icon newsletter__icon_twitter" href="#"><img
-                            src="./img/twitter-logo.svg"></button>
-                    <button class="newsletter__icon newsletter__icon_instagram" href="#"><img src="./img/instagram.svg"
-                            alt=""></button>
-                    <button class="newsletter__icon newsletter__icon_pinterest" href="#"><img src="./img/pinterest.svg"
-                            alt=""></button>
+                    <button class="newsletter__icon newsletter__icon_facebook" href="#"></button>
+                    <button class="newsletter__icon newsletter__icon_twitter" href="#"></button>
+                    <button class="newsletter__icon newsletter__icon_instagram" href="#"></button>
+                    <button class="newsletter__icon newsletter__icon_pinterest" href="#"></button>
                 </div>
+
             </article>
         </div>
         <p class="info">© 2019 Axion. All rights reserved.</p>
