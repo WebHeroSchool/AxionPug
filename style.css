@@ -99,6 +99,7 @@ a.menu__item {
     height: 14px;
     transition-duration: .7s;
     cursor: pointer;
+    margin-top: 6px;
 }
 .menu__item_sing {
     flex-basis: 20.5%;
@@ -700,6 +701,10 @@ a.menu__item {
     .menu__item_help {
         margin-right: 2px;
     }
+    .menu__item_search {
+        margin-left: -2px;
+        margin-top: 8px;
+    }
     .potter__rob_rob-img {
         height: 253px;
     }
@@ -725,7 +730,7 @@ a.menu__item {
     }
     .prace {
         font-size: calc(11px + (14 - 11) * ((100vw - 768px) / (1024 - 768)));
-        margin: 0 38.7% 0 5%;
+        margin: 3px 38.7% 0 5%;
     }
     .video {
         height: calc(342px + (442 - 342) * ((100vw - 768px) / (1024 - 768)));
@@ -1624,12 +1629,24 @@ a.menu__item {
         background-image: url(./img/rob-potter-320.jpg);
         height: 191px;
     }
-    .potter__rob_title,
-    .potter__rob_shop-now-img {
+    .potter__rob_title {
         left: 20px;
     }
+    .potter__rob_shop-now-img {
+        left: 20px;
+        width: 124px;
+    }
     .product-sabtitle {
-        margin: 35px 10px 0 0;
+        margin: 36px 10px -3px 0;
+    }
+    .atlas-black-img {
+        margin: 0 0 0 66px;
+    }
+    .name {
+        margin: 20px 0px 6px 19px;
+    }
+    .prace {
+        margin: 0 117px 0 19px;
     }
     .video__video-sabtitle__1 {
         margin-left: 91px;
@@ -1638,12 +1655,26 @@ a.menu__item {
         margin-left: 50px;
     }
     .video__video-text {
-        margin: 102px 20px 0 20px;
+        margin: 106px 20px 0 20px;
+        line-height: 17.5px;
     }
     .story__h2 {
-        margin: 46px 0px 28px 70px;
+        margin: 48px 0px 28px 70px;
+    }
+    .presents__presents-h3 {
+        margin: 30px 0px 0px 1px;
     }
     .picture__picture-h2 {
-        margin: 60px 0 0 10%;
+        margin: 63px 0 0 10%;
+    }
+    .presents__presents-arrow {
+        margin: 1px 0px 0px 0px;
+        max-width: 61%;
+    }
+    .presents__presents-date {
+        margin: -2px 0px 0px 0px;
+    }
+    .newsletter__newsletter-sing-up-h4 {
+        margin: 45px 0px 11px 0px;
     }
 }
