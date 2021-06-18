@@ -2,15 +2,15 @@
     font-family: 'GothamPro';
     font-style: normal;
     font-weight: 400;
-    src: url(./foht/GothamPro.woff2);
-    src: url(./foht/GothamPro.woff);
+    src: url(./font/GothamPro.woff2);
+    src: url(./font/GothamPro.woff);
     font-display: swap;
 }
 @font-face {
     font-family: 'GothamPro-Bold';
     font-style: normal;
     font-weight: 700;
-    src: url(./foht/GothamPro-Bold.woff2);
-    src: url(./foht/GothamPro-Bold.woff);
+    src: url(./font/GothamPro-Bold.woff2);
+    src: url(./font/GothamPro-Bold.woff);
     font-display: swap;
 }
