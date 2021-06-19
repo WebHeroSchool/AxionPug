@@ -380,7 +380,7 @@ a.menu__item {
     font-size: calc(22px + (35 - 22) * ((100vw - 1170px) / (1920 - 1170)));
     line-height: calc(27px + (43 - 27) * ((100vw - 1170px) / (1920 - 1170)));
     text-transform: uppercase;
-    margin: 15% auto auto 69.9%;
+    margin: 14.8% auto auto 69.9%;
 }
 .video__video-sabtitle__2 {
     margin: 17.5% auto auto 69.9%;
@@ -396,7 +396,7 @@ a.menu__item {
 .video__video-arrow {
     position: absolute;
     width: 13%;
-    margin: 32% auto auto 70%;
+    margin: 31.7% auto auto 70%;
 }
 .video-arrow {
     max-width: 100%; 
@@ -635,7 +635,7 @@ a.menu__item {
     background-repeat: no-repeat;
 }
 .info {
-    margin: 4.8% auto 3% auto;
+    margin: 5% auto 3% auto;
     text-align: center;
     color: #FFF;
     font: 400 12px/11px 'GothamPro',arial,helvetica,sans-serif;
@@ -752,15 +752,15 @@ a.menu__item {
     .video__video-text {
         font-size: calc(10px + (13 - 10) * ((100vw - 768px) / (1024 - 768)));
         line-height: calc(13px + (17 - 13) * ((100vw - 768px) / (1024 - 768)));
-        margin: 21.1% 4% auto 69.6%;
+        margin: 21.3% 4% auto 69.6%;
     }
     .video__video-arrow {
     width: 15.5%;
-    margin: 31.5% auto auto 69.6%;
+    margin: 31.7% auto auto 69.6%;
     }
     .story__h2 {
         font-size: calc(17px + (22 - 17) * ((100vw - 768px) / (1024 - 768)));
-         margin: 10% 0 4.7% 0%;
+         margin: 10.2% 0 4.7% 0%;
     }
     .presents,.first,.kevin {
         flex-basis: 29.8%;
@@ -787,19 +787,20 @@ a.menu__item {
         margin: 3.7% 0 7% 0;
     }
     .presents__presents-arrow,.first__first-arrow,.kevin__kevin-arrow {
-        max-width: 44%;
+        max-width: 41%;
         height: calc(8px + (12 - 8) * ((100vw - 768px) / (1024 - 768)));
+        margin-top: 3px;
     }
     .presents__presents-date,.first__first-date,.kevin__kevin-date {
         font-size: calc(8px + (12 - 8) * ((100vw - 768px) / (1024 - 768)));
-        margin-left: 33%;
+        margin-left: 33.9%;
     }
     .picture__picture-h2 {
         font-size: calc(14px + (18 - 14) * ((100vw - 768px) / (1024 - 768)));
         margin: 9.6% 0 1% 0;
     }
     .picture__nav {
-        margin-bottom: 10.6%;
+        margin-bottom: 10.3%;
     }
     .footer {
         height: calc(222px + (297 - 222) * ((100vw - 768px) / (1024 - 768)));
@@ -811,17 +812,42 @@ a.menu__item {
         width: 9.4%;
         margin: 52px 0 0 12.3%;
     }
+    .account__account-text>a {
+        margin-top: 5.7%;
+    }
     .service {
         width: 12.9%;
         margin: 52px 0 0 10.2%;
+    }
+    .service__text>a {
+        margin-top: 4.5%;
     }
     .miscellaneous {
         width: 11.9%;
         margin: 52px 0 0 6.8%;
     }
+    .miscellaneous-text>a {
+        margin-top: 4.9%;
+    }
     .newsletter {
         width: 17.9%;
         margin: 52px 0 0 7.4%;
+    }
+    .newsletter__newsletter-sing-up-h4 {
+        margin-bottom: 3.5%;
+    }
+    .carryover, .carryover2, .carryover4 {
+        margin: 0 2%;
+    }
+    .newsletter__icon {
+        margin-top: 8.5%;
+    }
+    .newsletter__icon_instagram {
+        margin-top: 10%;
+    }
+    .newsletter__icon_pinterest {
+        margin-top: 10.5%;
+        margin-left: 9%;
     }
     .account__account-text,
     .service__text,
@@ -852,7 +878,7 @@ a.menu__item {
     }
     .info {
         font-size: calc(9px + (12 - 9) * ((100vw - 768px) / (1024 - 768)));
-        margin: 6% auto 3% auto;
+        margin: 5.2% auto 0 auto;
     }
 }
 @media (max-width: 960px) {
@@ -1101,8 +1127,8 @@ a.menu__item {
         margin-left: 2.5%;
     }
     .first {
-        flex-basis: 41%; 
-        margin-right: 2.5%;
+        flex-basis: 40.6%; 
+        margin-right: 2.4%;
     }
     .presents__presents-img {
         background-image: url(./img/presents-768.jpg);
@@ -1121,7 +1147,7 @@ a.menu__item {
         font-size: calc(13px + (25 - 13) * ((100vw - 375px) / (768 - 375)));
         line-height: 24px; 
         color: #fff;
-        margin: 10% 0 0 0;
+        margin: 9.5% 0 0 0;
     }
     .presents__presents-text,.first__first-text {
         font-size: calc(10px + (20 - 10) * ((100vw - 375px) / (768 - 375)));
@@ -1136,16 +1162,19 @@ a.menu__item {
     .presents__presents-arrow,.first__first-arrow {
         background-image: url(./img/LEarn\ more-w-768.svg);
        max-width: 65%;
-       flex-basis: 70%;
+       flex-basis: 64%;
         height: calc(9px + (17 - 9) * ((100vw - 375px) / (768 - 375)));
     }
     .presents__presents-date,.first__first-date {
-        margin: 0;
+        margin: 2px 0 0 0;
         flex-basis: 20%;
         font-size: calc(8px + (15 - 8) * ((100vw - 375px) / (768 - 375)));
         line-height: 14px;
         color: #fff;
         opacity: 1;
+    }
+    .presents__presents-date {
+        margin: 3px -15px 0 0;
     }
     .picture {
         background-color: #000;
@@ -1222,8 +1251,8 @@ a.menu__item {
         height: calc(86px + (170 - 86) * ((100vw - 375px) / (768 - 375)));
     }
     .footer {
-        margin-top: calc(160px + (314 - 160) * ((100vw - 375px) / (768 - 375)));
-        height: calc(190px + (310 - 190) * ((100vw - 375px) / (768 - 375)));
+        margin-top: calc(160px + (317 - 160) * ((100vw - 375px) / (768 - 375)));
+        height: calc(190px + (302 - 190) * ((100vw - 375px) / (768 - 375)));
     }
     .account {
         width: 12%;
@@ -1248,10 +1277,10 @@ a.menu__item {
         line-height: 11px;
     }
     .service__service-h4 {
-        margin-bottom: 2.5%;
+        margin-bottom: 1%;
     }
     .service__text>a {
-        margin-top: 5%;
+        margin-top: 5.3%;
     }
     .miscellaneous {
         width: 17%;
@@ -1262,10 +1291,10 @@ a.menu__item {
         line-height: 11px;
     }
     .miscellaneous__miscellaneous-h4 {
-        margin-bottom: 2.5%;
+        margin-bottom: 1%;
     }
     .miscellaneous-text>a {
-        margin-top: 5%;
+        margin-top: 5.5%;
     }
     .newsletter {
         width: 25%;
@@ -1278,11 +1307,14 @@ a.menu__item {
     .newsletter__newsletter-sing-up-h4 {
         margin-bottom: 2.5%;
     }
+    .carryover4 {
+        margin: 1% 0 0 0;
+    }
     .newsletter>a {
         margin-top: 5%;
     }
     .newsletter__newsletter-sing-up_text {
-        margin-bottom: 8%;
+        margin-bottom: 6%;
         flex-flow: wrap;
     }
     .newsletter__newsletter-sing-up_btn {
@@ -1298,21 +1330,24 @@ a.menu__item {
     .newsletter__icon_pinterest {
         margin-left: 7%;
     }
+    .newsletter__icon {
+        margin-top: 7%;
+    }
     .info {
         font-size: calc(6px + (12 - 6) * ((100vw - 375px) / (768 - 375)));
-        margin: 9% auto 3% auto;
+        margin: 9.8% auto 3% auto;
     }
 }
 
 @media (max-width: 376px) {
     .header {
-        margin-bottom: 30px;
+        margin-bottom: 29px;
     }
     .logo {
         background-image: url(./img/Axion-logo-1-375.svg);
-        margin-top: 2%;
-        margin-left: 29.5%;
-        flex-basis: 70%;
+        margin-top: 2.8%;
+        margin-left: 30%;
+        flex-basis: 68%;
         height: 20px;
     }
     .first-line {
@@ -1332,8 +1367,8 @@ a.menu__item {
     .potter__rob_title {
         font-size: 20px;
         line-height: 19px;
-        top: 49px;
-        left: 50px;
+        top: 48px;
+        left: 49px;
     }
     .potter__rob_shop-now-img {
         background-image: url(./img/arrow-white-375.svg);
@@ -1345,7 +1380,8 @@ a.menu__item {
     .product-sabtitle {
         font-size: 20px;
         line-height: 19px;
-        margin-bottom: 0;
+        margin-bottom: -3px;
+        margin-top: 36px;
     }
     .product {
         margin-bottom: 76px;
@@ -1397,8 +1433,8 @@ a.menu__item {
     }
     .video__video-text {
         font-size: 14px;
-        line-height: 17px;
-        margin: 108px 50px 0px 50px;
+        line-height: 17.5px;
+        margin: 105px 45px 0px 50px;
     }
     .video__video-img {
         background-image: url(./img/Video1-375.jpg);
@@ -1581,7 +1617,7 @@ a.menu__item {
         width: 150px;
     }
     .newsletter__icon {
-        margin-top: 103px;
+        margin-top: 108px;
     }
     .newsletter__icon_facebook {
          width: 10px;
@@ -1610,7 +1646,7 @@ a.menu__item {
     .info {
         font-size: 13px;
         line-height: 12px;
-        margin: 24px 0px 0px 0px;
+        margin: 22px 0px 0px 0px;
     }
 }
 @media (max-width: 321px) {
